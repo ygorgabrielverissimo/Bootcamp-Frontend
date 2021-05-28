@@ -1,0 +1,23 @@
+{
+  "name": "Bootcamp-Frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygorgabrielverissimo/Bootcamp-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ygorgabrielverissimo/Bootcamp-Frontend/issues"
+  },
+  "homepage": "https://github.com/ygorgabrielverissimo/Bootcamp-Frontend#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  }
+}
