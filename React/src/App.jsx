@@ -6,7 +6,7 @@ import Aula2 from './aula-2/Aula2';
 import Aula3 from './aula-3/Aula3';
 import Aula4 from './aula-4/Aula4';
 import Pagina404 from './NotFound';
-import Cycle from './lifeCycle/Cycle'
+import Twitter from './lifeCycle/Twitter'
 import './App.css';
 
 
@@ -20,7 +20,8 @@ function App() {
           <Route path="/aula-2" component={Aula2} />
           <Route path="/aula-3" component={Aula3} />
           <Route path="/aula-4" component={Aula4} />
-          <Route path="/lifeCycle" component={Cycle} />
+          <Route path="/lifeCycle" component={Twitter} />
+          <Route path="/Hooks" component={Twitter} />
           <Route path="*" component={Pagina404} />
         </Switch>
       </BrowserRouter>
